@@ -1,0 +1,181 @@
+
+  <!DOCTYPE html>
+  <html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>رزومه شخصی</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+      body {
+        margin: 0;
+        font-family: "Vazir", Tahoma, sans-serif;
+        background: #f8f8fc;
+        color: #333;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        max-width: 1100px;
+        margin: 30px auto;
+        background: #fff;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      /* ستون راست */
+      .sidebar {
+        background: #5b456f;
+        color: #fff;
+        padding: 30px 20px;
+        text-align: center;
+      }
+      .sidebar img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+        border: 4px solid #fff;
+      }
+      .sidebar h1 {
+        font-size: 22px;
+        margin: 10px 0 5px;
+      }
+      .sidebar h2 {
+        font-size: 14px;
+        font-weight: normal;
+        margin-bottom: 20px;
+      }
+      .sidebar p {
+        font-size: 13px;
+        margin: 5px 0;
+      }
+      .sidebar a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .skills, .social {
+        margin-top: 25px;
+        text-align: right;
+      }
+      .skills h3, .social h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #fff;
+        display: inline-block;
+        padding-bottom: 5px;
+      }
+      .skills span {
+        display: inline-block;
+        background: #fff;
+        color: #6a1b9a;
+        font-size: 12px;
+        padding: 5px 8px;
+        margin: 4px;
+        border-radius: 6px;
+      }
+      .social a {
+        display: block;
+        margin: 6px 0;
+        font-size: 14px;
+      }
+  
+      /* ستون چپ */
+      .main {
+        padding: 30px 40px;
+      }
+      .section {
+        margin-bottom: 30px;
+      }
+      .section h2 {
+        font-size: 18px;
+        color: #6a1b9a;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e1c4f5;
+        padding-bottom: 5px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .section h2 i {
+        color: #6a1b9a;
+      }
+      .section p, .section li {
+        font-size: 14px;
+        line-height: 1.8;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li::before {
+        content: "• ";
+        color: #6a1b9a;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- ستون راست -->
+      <div class="sidebar">
+        <img src="profile.jpg" alt="عکس پروفایل">
+        <h1>فاطمه سجادیان</h1>
+        <h2>کارآموز فرانت‌اند</h2>
+        <p><i class="fa-solid fa-envelope"></i> 
+          <a href="mailto:phatmesjdn@gmail.com">phatmesjdn@gmail.com</a>
+        </p>
+        <p><i class="fa-solid fa-phone"></i> 
+          <a href="tel:09215435615">09215435615</a>
+        </p>
+        <p><i class="fa-solid fa-location-dot"></i> رودهن</p>
+  
+        <div class="skills">
+          <h3>مهارت‌ها</h3>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>SQL Server</span>
+          <span>SEO</span>
+          <span>moho</span>
+          <span>Premiere</span>
+          <span>VS Code</span>
+        </div>
+  
+        <div class="social">
+          <h3>شبکه‌های اجتماعی</h3>
+          <a href="#"><i class="fa-brands fa-telegram"></i> تلگرام: phatmesjdn@</a>
+        </div>
+      </div>
+  
+      <!-- ستون چپ -->
+      <div class="main">
+        <div class="section">
+          <h2><i class="fa-solid fa-user"></i> درباره من</h2>
+          <p>دانشجوی مهندسی کامپیوتر و علاقه‌مند به توسعه وب. در حال یادگیری JavaScript و تمرین پروژه‌های فرانت‌اند. تجربه در انیمیشن دوبعدی با نرم‌افزارهای موهو و پریمیر.</p>
+        </div>
+  
+        <div class="section">
+          <h2><i class="fa-solid fa-graduation-cap"></i> سوابق تحصیلی</h2>
+          <p>کارشناسی مهندسی کامپیوتر - دانشگاه آزاد رودهن</p>
+        </div>
+  
+        <div class="section">
+          <h2><i class="fa-solid fa-briefcase"></i> سوابق شغلی</h2>
+          <ul>
+            <li>انجام پروژه‌های انیمیشن دوبعدی با موهو و پریمیر</li>
+            <li>تمرین پروژه‌های فرانت‌اند با HTML و CSS</li>
+          </ul>
+        </div>
+  
+        <div class="section">
+          <h2><i class="fa-solid fa-certificate"></i> دوره‌ها</h2>
+          <ul>
+            <li>دوره HTML & CSS</li>
+            <li>دوره مقدماتی JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
